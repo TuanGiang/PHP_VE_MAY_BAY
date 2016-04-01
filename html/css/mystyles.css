@@ -1,0 +1,366 @@
+#breadcrumb { padding: 5px 0; float:left; clear:both; width:100%; margin-top:0px;}
+#breadcrumb ul { margin: 0; padding: 0 0 0 10px;}
+#breadcrumb li { display: inline; float: left; padding-right: 5px;}
+#breadcrumb li a { float: left; text-decoration: none; color: #999; background: url('../Images/breadcrumb-connect.gif') no-repeat right center; padding-right:20px;line-height:19px}
+#breadcrumb li.active a { font-weight: bold; color: #ff7b0f;}
+#breadcrumb li.pass a { color:#2286b7;}
+#breadcrumb li.home a {}
+#breadcrumb li.end a { background: none;}
+.color { color: #2286b7; color: #ff7b0f;}
+.error2  
+{
+    float:left; width:95%; padding:5px 2% 5px 3% ; margin:5px auto;
+    background:yellow; color:red; border:1px solid #c88281; font-weight:bold;font-size: larger;
+}
+
+#main { width: 100%;vertical-align: top; padding: 10px 14px 0 10px; border-right: 1px dashed #dcdcdc;}
+#main table {float: left;clear: both;}
+#main table.f-result {  width:100%;}
+
+#main .f-result .change-date td, #main .f-result .change-date:hover td
+ { border:none !important; background:#fff; }
+
+
+#main .viewed .v-detail ,#main .viewed:hover  .v-detail { }
+#main .viewed td a { background:  url('../Images/collaspe.png') no-repeat bottom right !important; color: #2286b7;}
+#main .f-result .selected td,#main .f-result .selected:hover td  { background: #ffe655; border-bottom: 1px solid #fcdabf;}
+#main .f-result tr.i-result:hover td { background: #ffe655; border-bottom: 1px solid #c5dff8; cursor: pointer;}
+#main .f-result tr.pre:hover td { background: #f4f9fd; border-bottom: 1px solid #c5dff8;}
+#main .tbl-submit td { border: none; padding-top: 15px;}
+#main .tbl-submit:hover td {background: none; border-bottom:none;}
+#main .f-result .title td { font-weight: bold; font-size: 14px;  padding: 10px 0 15px 0; border:none;}
+#main .f-result .title:hover td { background: none; border:none;}
+#main .f-result .title b { color: #ff7b0f; font-size: 20px; padding: 0 3px;}
+#main .f-result .title b.date-r { color: #2286b7; }
+#main .f-result .flight-info-detail td { border:none; padding:5px;}
+#main .f-result .flight-info-detail td a { background:#fff; padding:0; text-decoration:none; color:#2286b7; float:none;}
+#main .f-result .flight-info-detail td a.view-rule { background:none; }
+#main .f-result .flight-info-detail:hover td { background:#f5f5f5; border:none; } 
+#main .f-result .flight-info-detail .price-break .title-b td { font-weight:bold; color:#999; border-top:1px dashed #ddd; }
+#main .f-result .flight-info-detail .price-break .title-b td * {color:#999;}
+#main .f-result .flight-info-detail .flight-detail-content, #main .f-result .flight-info-detail:hover .flight-detail-content { background:#f5f5f5;  border-bottom:1px solid #eee;}
+#main .f-result .flight-change td,#main .f-result tr:hover .flight-change td  { background:#fff; border-top: 1px dashed #dcdcdc;}
+.pb-price { font-weight:bold;}
+.tbl-submit span { padding: 0 10px 0 5px;}
+#main .i-result td .sohieu {font-size:13px; font-weight:bold; line-height:30px}
+#main .i-result td .gio {font-size:16px; font-weight:bold; line-height:30px;}
+#main .i-result td .gia {font-size:18px; font-weight:bold; color:#e1770d;width: 180px;}
+#main .i-result td .gia span {text-align: right;padding-right: 30px;display: block;}
+.input-submit input { background: url('../Images/submit-bg.png') repeat-x; float: right; height: 29px; font-weight: bold; color: #fff; border: none !important; padding: 0 18px; }
+.dialog {display:none;}
+
+#side-bar{ width:245px; vertical-align: top; padding-left: 0;  }
+
+.theo-hang-bay td img { float: right;}
+
+#filter .checked  
+{
+   /* border:1px solid #ff7b0f; -webkit-border-radius: 5px; background:#FEF4EB;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+*/
+ }
+#filter .checked * { font-weight:bold; color: #ff7b0f;  }
+
+/*.sub-form-search table { background: #f5f5f5; border: 1px solid #c7c7c7; padding: 5px 7px;}
+.sub-form-search input.text-input { height: 26px; border: 1px solid #c7c7c7; width: 205px; padding-left:5px;}
+.sub-form-search input.date-input { height: 26px; border: 1px solid #c7c7c7; width: 98px; padding-left:5px; background: url('../Images/date-input.gif') no-repeat right center;  }
+.sub-form-search .input-submit input { float: left;}
+.sub-form-search select {height: 26px; border: 1px solid #c7c7c7; width: 100%;}
+.sub-form-search .waytype  label, .sub-form-search .passenger label{ font-weight: normal;}  */
+.sub-form-search label { font-weight: bold; line-height: 20px; color: #333;}
+
+/* Passenger pages */
+#side-bar .bd-price ,#side-bar .bd-dis-price{ text-align:right; font-weight:bold; font-size:13px; }
+#side-bar .bd-dis-price { padding:7px 0;}
+#side-bar .total-price td { border-top:1px dashed #d4d4d4; padding-top:7px;}
+#side-bar .all-price td { border-top:1px solid #c7c7c7;padding-top:7px;}
+#side-bar .detail td { font-size:11px; text-align:right; padding-bottom:10px;}
+#side-bar .detail td.number-tk { text-align:left; }
+#side-bar .toi-lam-the-nao ul { padding-left:20px; list-style-image: url('/Images/breadcrumb-connect.gif');}
+#side-bar .toi-lam-the-nao ul li { float:left; padding:1px 2px; clear:both;}
+.chi-tiet-gia td { background:#fff;}
+.passenger-page { padding-bottom:10px;}
+.passenger-page .title td  
+{
+    font-size:20px; color:#2286b7; font-weight:bold; padding-bottom:3px;
+    border-bottom:1px solid #dcdcdc; }
+.passenger-page .next-top td { padding-top:15px;} 
+.passenger-page .flight-sum td { padding:2px 0; font-size:13px; border-top:1px solid #e5e5e5;}
+.passenger-page .flight-sum td * {font-size:13px;}
+.passenger-page .flight-sum td b { font-size:13px;}
+.passenger-page .flight-detail-d td { padding:5px 0;}
+.passenger-page input[type="text"], .passenger-page select { height: 24px; border: 1px solid #c7c7c7;}
+textarea { border: 1px solid #c7c7c7;}
+.passenger-page select { height:26px;}
+/* main form search */
+.form-search { border: 5px solid #D5D9DA; vertical-align: top; width: 562px; padding: 5px 10px;}
+.form-search .waytype .title { color: #2286b7; font-weight: bold; text-transform: uppercase; font-size: 16px;}
+.form-search .waytype td { border-bottom: 1px dashed #c7c7c7; padding-bottom: 5px;}
+.form-search .waytype td label { font-weight: bold;}
+.form-search input.text-input { height: 26px; border: 1px solid #c7c7c7; width: 210px;}
+.form-search input.date-input { height: 26px; border: 1px solid #c7c7c7; width: 103px; background: url('../Images/date-input.gif') no-repeat right center;  }
+.form-search .input-submit input { float: left;}
+.form-search select {height: 26px; border: 1px solid #c7c7c7; width: 100px;}
+.form-search label {  line-height: 20px; color: #333;}
+.form-search .waytype  label, .sub-form-search .passenger label{ font-weight: normal;}
+.form-search .city td { padding: 10px 0 5px 0;}
+.form-search .date td { padding: 5px 0 10px 0;}
+.form-search .passenger td { padding: 0 0 10px 0;}
+.form-search .submit td { padding: 0 0 10px 0;}
+.form-search .airline-ad td { padding:  0; text-align: center; border-top: 1px dashed #c7c7c7;}
+.thong-tin-lien-he td { vertical-align:top;}
+.thong-tin-lien-he input[type="text"] { width:100%;}
+.thong-tin-lien-he label { line-height:22px; font-weight:bold; color:#4E4E4E; }
+.thong-tin-lien-he label span { font-size:11px; font-weight:normal; color:#4E4E4E;}
+.thong-tin-lien-he select { width:100%; height:28px;}
+.passenger-page .next-top td.flight-input-info { padding:0 0 10px 0; }
+.passenger-page .next-top td.flight-input-info td { padding:0;}
+.to-f { padding:0 50px 0 0 !important;}
+.flight-input-info h2 { font-size:20px; color: #ff7b0f; font-weight:bold; margin:7px 0;}
+.city-input { color: #2286b7 !important;}
+.logo-flight { padding-right:10px !important; }
+.airline-detail td { padding-top:5px  !important; padding-bottom:10px  !important;}
+table.flight-input-info {  padding-bottom:10px;}
+
+/* payment page */
+.payment-page label { font-weight:bold; font-size:16px; color:#333; text-shadow:1px 1px #fff;}
+.payment-page .checked label {color: #FF7B0F;}
+.payment-page .customer-bank-info label { font-size:13px; font-weight:normal;}
+.passenger-page .content-p { display:none;}
+.passenger-page .desc *{ font-size:11px; color:#666;}
+.passenger-page .p-method td { padding: 10px 0; background:#f8f8f8; border-top:1px solid #dcdcdc; vertical-align:top;}
+.payment-page .checked td {background:#fff;}
+.passenger-page .p-method td td { padding:5px 5px 0 8px; border:none;}
+.passenger-page input[type="text"] { width:98%; padding-left:1%;}
+#PaymentByBank h2 { font-size:14px; color:#666; padding: 0 0 14px 0;}
+#side-bar .booking-summary .price td { border-bottom:1px solid #c7c7c7; padding:7px 0 7px 7px; }
+#side-bar .booking-summary .price td.bs-price span { color: #ff7b0f; font-weight:bold; font-size:18px; }
+#side-bar .departure td { padding-top:10px;}
+#side-bar .booking-summary td { padding:5px 0 0 7px;}
+#side-bar .booking-summary .title td { padding-left:0; padding-bottom:10px;}
+#side-bar .booking-summary td.summary-title { font-size:11px; padding-left:0; }
+.flight-change td { text-align:center; background: #fef4eb; border-bottom: 1px solid #fcdabf; border-top: 1px solid #fcdabf; padding:6px 0; }
+
+#flightResultMainContent { float:left; width:695px;}
+#divMask {width:655px; background-color: #fff;opacity: 0.8;z-index:99999}
+#loading  
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position:fixed;z-index:999999; background:#fff; padding:7px 30px; border:1px solid #c7c7c7; font-weight:bold;}
+#loading img { padding-right:5px;}
+.sub-form-search input.disabled { background-color:#ddd;}
+.thoi-gian-ve input,.thoi-gian-di input  { border:none !important; width:15px; padding:0 !important; text-align:right; font-weight:bold; height:auto !important; color:#ff7b0f}
+.af-name span, .df-name span { float:right; color:#666; padding-right:10px; font-size:11px;}
+#filter .slider { width: 93%; float: left;}
+#filter .ui-widget-content { background: #FEF4EB; border: 1px solid #ff7b0f; height: 6px;}
+#filter .ui-slider a.ui-slider-handle  { background: #fff; border: 1px solid #FF3300; height: 11px; width: 11px; top: -4px;}
+#filter .ui-widget-header { background:#ff7b0f;}
+.rule { float:left; width:100%; margin:5px 0 0 0;}
+.rule span { float:left; width:14%; font-size:11px; color:#666;}
+.rule span.h-6 { width:21%;}
+.rule span.last { text-align:right;}
+.require { color:red !important;}
+.top td { border:none !important; padding-top:10px !important;}
+.payment-page .content-p table { padding-left:8px !important;}
+/* .payment-page .content td, .checked td { background:#edf9ed !important;} */
+.view-detail a {color: #2286b7; float:right; padding:10px 10px 0 0; }
+.list-banks td { border-top:1px solid #dcdcdc; padding:5px;}
+.list-banks td td { border:none; padding:2px 10px;}
+.list-banks td.actived { border:1px solid #dcdcdc; padding:4px 4px 5px 4px; border-bottom:none;}
+.payment-page .content-p table.bank-info { padding:0 !important;}
+.payment-page .content-p table.bank-info table { padding:0 !important;}
+.huong-dan { font-size:11px; color:#999; padding: 10px 0; }
+
+/* Confirm page */
+#confirm-page {}
+#confirm-page a {}
+#confirm-page h3 { color: #2286b7; padding:0 0 5px 0; font-size:20px;}
+#confirm-page ul { margin:0; padding:5px 20px;}
+.payment-pending-report { margin-top:10px; padding:5px 10px; background: #fef4eb; border-bottom: 1px solid #fcdabf; border-top: 1px solid #fcdabf; }
+#confirm-page .payment-info { background: #e8f2fc; padding:5px; color:#5d7fb0; border:1px solid #BBD8F6;  border-left: none; border-right: none; }
+#confirm-page .payment-info {background: #f5f5f5; padding:5px; color:#333; border:1px solid #eee;  margin-top:10px; border-left: none; border-right: none; }
+#confirm-page .payment-type { float:left; width:100%; padding:5px 0;}
+
+.payment-instruction p { float:left; width:100%; padding:5px 0;}
+
+
+.AllDate ul li.disabled { cursor:auto; font-weight:normal; background:#eee; color:#bbb; }    
+.i-InBound { margin-top:5px;}
+#main table.bottom {width:655px;  }
+ .confirm-support { float:left; width:96%; padding:10px 2%; margin:7px 0; background:#eee;}
+ .other-payment { float:left; width:100%; padding:10px 0; margin:0 0 7px 0;}
+ #confirm-page  .other-payment ul  { list-style:none; margin:0; padding:0 0 0 5px; float:left;}
+  .other-payment ul li { float:left; clear:both; padding:5px 0; margin:0;}
+ #confirm-page  .other-payment ul li ul li { display:inline; float:left; padding:10px 60px 10px 15px; clear:none;}
+#confirm-page .payment-instruction h3 { padding-top:15px;}
+.mailed { padding-top:15px;}
+.payment-instruction p.payment-pending-report { width:96%; padding:5px 2%;} 
+.thong-tin-chuyen-bay td { background:#fff; padding:5px 0;}
+.bottom-align { vertical-align:bottom !important;}
+
+.listCity td { vertical-align:top;}
+.listCity ul { list-style:none; float:left; clear:both;}
+.listCity ul li { float:left; clear:both; padding:0 5px 0 0; width:115px;}
+.listCity ul li.title { font-weight:bold; font-size:15px; padding:5px 0;  text-transform:uppercase;}
+.listCity ul li a { float:left; width:106px; padding:1px 3px;  }
+.listCity ul li a:hover { background:#ff7b0f; }
+.listCity ul li a:hover * { color:#fff;}
+.listCity ul li a:hover b { font-weight:bold;}
+.listCity ul li a b { float:left; font-weight:normal;}
+.listCity ul li a span { float:right; font-weight:bold; font-size:10px; color:#999;}
+.domestic-col { float:left;padding-right:15px; font-size:12px;}
+.internation-city { float:left; width:360px;}
+.internation-city h3 { font-size:15px; padding:5px 0; text-transform:uppercase;}
+.internation-city p { font-size:11px; color:#888;}
+.internation-city input { height:24px; width:320px; border:1px solid #ccc; padding:2px 5px; margin:7px 0; }
+
+/* Payment */
+.bank-name { color:#666; font-weight:bold; }
+.title { font-size:11px; color:#666;}
+.bank-account-name { text-transform:uppercase; }
+.bank-account-number { letter-spacing:2px; }
+.view-list-booking td { padding:5px 0; border-bottom:1px solid #dcdcdc;}
+.view-list-booking th { padding:5px 0 7px 0; border-bottom:1px solid #dcdcdc; text-align:left;}
+.view-list-booking th.th-price { text-align:right; padding-right:10px;}
+.view-list-booking .price{ font-weight:bold; color: #ff7b0f; text-align:right; padding-right:10px;}
+#payment-method-help p { padding-bottom:10px;}
+#payment-method-help ul { list-style:none;}
+.payment-help  { float:left; width:100%; padding-bottom:15px;}
+/**/
+.content-FAQ td { padding:3px 0;}
+.content-FAQ td p { float:left; margin:0;}
+.content-FAQ td p span  
+{
+    float:left; width:18px; height:18px; text-align:center; 
+    line-height:18px; border:1px solid #eee; background:#f1f1f1; 
+    margin-right:10px; color:#666; cursor:pointer;
+    }
+.content-FAQ td  p span.viewing { background:#345f89; color:#fff;border:1px solid #345f89;}
+
+.content-FAQ td  p a:hover { text-decoration:underline;}
+.content-FAQ td  .answer { float:left; margin:5px 0; padding-left:30px;  text-align:justify;font-size: 13px;}
+#main #tu-van table { width:70%;}
+#main #tu-van input[type="text"] { width:93%; }
+#main #tu-van textarea { width:97%; }
+#main #tu-van label { font-weight:bold; color:#666; line-height:22px;}
+#customer-service p { padding-bottom:15px;}
+#customer-service p.list-function { float:left; width:100%;}
+#customer-service p.list-function a { float:left; width:30%; padding:5px 0 5px 2%;}
+.reviews { float:left; width:96%;  padding:7px 2%; }
+.reviews .review-content {  border-bottom:1px solid #dcdcdc; float:left; width:79%; padding:5px 0 8px 0; text-align:justify; font-weight:bold; color:#333; }
+.reviews .user-info { float:right; width:19%; padding-bottom:5px; }
+#tu-van .answer .review-content  { border:none;padding-top:0; font-weight:normal; color:#333;}
+#tu-van .answer { padding-top:0; }
+.review-items {background:#F4F9FD; border:1px solid #C5DFF8; float:left; width:99%; margin-bottom:7px;}
+#review .review .quote { background:#F4F9FD url('/Images/quote-top.gif') no-repeat 5px 5px; 
+                         border:1px solid #C5DFF8;  margin-bottom:7px; line-height:20px;}
+#review .review .user { font-size:11px; color:#777; float:right; padding-right:5px; padding-bottom:15px; background:#fff; }
+#review .review .user span{ font-weight:normal;}
+#review { padding-top:15px;}
+#review h3 { padding-bottom:15px;}
+.user-info b { font-size:11px; color:#999;}
+#tu-van .answer .user-info { }
+#tu-van .answer .user-info b { color:green; }
+.user-info .time { font-size:11px; color:#999;}
+
+.passenger-page .name { font-weight:bold;  }
+.passenger-page .main-fare p { font-size:14px; font-weight:bold; padding:0 0 10px 0; }
+.flight-info-detail { padding:10px 0;}
+.flight-input-info .title td { border:none;}
+
+/*-----------------------THÊM MỚI--------------------------------*/
+
+.txth2title {font-family: Helvetica, Arial, sans-serif;font-size:23px; font-weight:bold; color:#0d478a; line-height:30px; margin-top:18px}
+.changh2Title {font-size:26px; font-weight:bold; font-family: Helvetica, Arial, sans-serif; line-height:30px; color:#e85330; margin-bottom:15px}
+.changh2Title span {font-size:20px; color:#000; font-weight:normal}
+
+.AllDate {    
+    clear: both; 
+    margin-left:15px;
+	margin-right:15px;
+	border: solid 1px #d7d7d7
+	; border-radius:5px 5px 0px 0px
+
+}
+.AllDate ul {
+	width: 100%;
+	clear: both;
+	list-style: none;
+	font-size: 13px;
+	font-weight: bold;
+	background: url(../images/trang-ket-qua_th.jpg) repeat-x bottom;
+	height: 55px;
+	color: #444444;
+	text-transform:uppercase
+}
+.AllDate ul li {
+	width: 14%;
+	float: left;
+	margin: 0;
+	padding: 9px 5px;
+	text-align: center;
+	cursor: pointer;
+	
+	border-right: solid 1px #d7d7d7;
+	
+}
+.AllDate ul li:hover {color:#e85330;}
+.AllDate ul li:last-child {border-right:none; border-radius: 0px 5px 0px 0px}
+.AllDate ul li:first-child{ border-radius: 5px 0px 0px 0px}
+
+.AllDate ul {}
+
+.current  {background:#fff; border-top: solid 3px #0d478a; color:#0d478a;font-size: 14px;}
+
+#main .i-result {background:url(/images/trang-ket-qua_th.jpg) repeat-x}
+#main .i-result td.begin { border-left:solid 1px #d1d1d1; margin-left:1px}
+#main .i-result td.end { border-right:solid 1px #d1d1d1;}
+#main .i-result td {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 10px 0;
+	white-space:nowrap;
+}
+#main .f-result td.begin {
+    border-left: 1px solid #D1D1D1;
+}
+
+#main .f-result td.end {
+    border-right: 1px solid #D1D1D1;
+}
+#main .f-result td {
+    border-bottom: 1px solid #D1D1D1;
+   
+}
+
+#main .f-result td a {
+    background: url(/images/collaspe.png) no-repeat scroll right top rgba(0, 0, 0, 0);
+    float: left;
+    height: 17px;
+    padding-right: 25px;
+	white-space:nowrap;
+}
+
+.f-time {
+    color: #143B85;
+}
+.f-time {
+  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#main .f-result td.f-price {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.f-price {
+    color: #E84E0F;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.linkViewFlightDetail {background:url(/images/collaspe.png) no-repeat center right; font-size:12px; color:#143a83; padding-right:18px}
