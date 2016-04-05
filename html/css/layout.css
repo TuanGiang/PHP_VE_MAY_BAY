@@ -1,0 +1,427 @@
+﻿@charset "utf-8";
+/* CSS ABAY SITE */
+/* CSS temp-css */
+
+/*@import url('reset-css.css');*/
+#wrapper {width:980px; margin:0 auto;position:relative}
+.clr {clear:both;}
+.container {width:980px; margin:0 auto;padding-bottom: 1px;}
+
+.bold-font{font-size:12px; line-height:18px; color:#333; font-weight:bold;}
+.normal-font {font-size:12px; color:#333; line-height:18px;}
+.normal-font-white {font-size:12px; color:#fff; line-height:18px;}
+.normal-14-font {font-size:14px; color:#113170; line-height:18px;}
+.normal-14-font-bold {font-size:14px;font-weight:bold; color:#113170; line-height:18px;}
+.bold-font-cyan {font-size:13px; color:#011059; font-weight:bold;}
+.bold-font-orange {font-size:13px; color:#e8641b; font-weight:bold;}
+.bold-font-orange14{font-size:14px; color:#e8641b; font-weight:bold;}
+.bold-font-orange14 a{font-size:14px; color:#e8641b; font-weight:bold;text-decoration: none;}
+.smallText {font-size:11px; color:#596565; line-height:14px;}
+.smallText2 {font-size:11px; color:#CCC; line-height:14px;}
+.uppercaseNormalfont {font-size:12px; line-height:18px; color:#333; text-transform:uppercase;}
+.normal-link {font-size:12px; line-height:14px; color:#113883; text-decoration:none;}
+.numberOfBank {font-weight:bold; font-size:13px; letter-spacing:4px; color:#333;}
+.big-font-yellow {font-size: 16px; line-height:24px; color:#fbba00; font-weight:bold; font-style:italic;}
+.big-font-yellow-2 {font-size: 34px}
+
+.big-font-header {font-size:26px; line-height:24px; font-weight:bold; letter-spacing:-2px;}
+.big-font-normal{; font-size:18px; line-height:24px; color:#0b1e6f; font-weight:normal;}
+.big-font-none-bold-none-margin{font-size:22px; color:#070757; font-weight:normal; line-height:30px;}
+.orange-font {font-size:12px; color:#e78e45; font-weight:normal; line-height:24px; display:block; margin-top:8px;}
+.red {font-size:12px; color:red; line-height:18px}
+.margin7 {margin-bottom:7px;}
+ 
+/* CSS header */
+/*.top-header {background:#143a83; height:5px;}
+#header{background:#fff;  height: 70px; padding:10px 0px}
+.logo {background:url(/images/logo.png) no-repeat center center; display:block; width:165px; height:67px; float:left; margin-left:15px;}
+.header-right {width:370px; height:55px; background:url(/images/AbayV2/bg-assistant.png) no-repeat right top; float:right; padding: 10px 12px 10px 10px;}
+.header-right .header-notice { text-align: right; margin-top:10px;}
+.header-right img {float:right; padding:2px; border: solid 1px #cacaca; margin-left:10px;}
+.header-right2 {width:260px; height:55px; background:url(/images/AbayV2/header-right2.png) no-repeat right top; float:right; padding: 7px 12px 10px 10px;}
+.header-right2 img {float:right; padding:2px; margin-left:10px;}
+.clock {background:url(/images/AbayV2/hotroIcon.png) no-repeat right center; }*/
+
+/*.subMenu {background:url(/images/AbayV2/TopHeaderBG.jpg) repeat-x; height:29px; }*/
+.subMenu ul {list-style:none; float:right; width:340px; padding:5px 0px; text-align:right;}
+.subMenu ul li {float: left; margin-right:15px;}
+.subMenu ul li img { margin-right:5px;}
+.subMenu ul li.lastItem {margin-right:0px; padding-right:0px;}
+
+#header{background:#fff;  padding:10px 5px 10px 10px;}
+.logo {background:url(/images/logo.png) no-repeat left center; display:block; width:300px; height:72px; float:left; margin-left:5px;}
+#header .help {background:url(/images/AbayV2/header2.png) no-repeat;width:367px; height:55px; padding: 10px 10px 10px 240px; float:right; overflow:hidden; }
+.hanoiHead {display:block; width:150px; float:left; text-align:right; margin-top:5px;}
+.orange_font_22 {font-size:22px; font-weight:bold; color:#f47920; line-height:30px; text-shadow: 1px 1px #fff;}
+.reception {margin:0px 8px; float:left}
+.SaigonHead {display:block; width:150px; float:left; text-align:left; margin-top:5px;}
+/* CSS header update 02/06 */
+#header .dienthoai {float: right; padding:0px;width: auto;border: none}
+#header .dienthoai ul {list-style:  none}
+#header .dienthoai ul li{ float:left; width:170px; margin-right:10px;} 
+#header .dienthoai ul li.lastItem {width:175px; margin-right:0px;}
+#header .dienthoai td {height:22px;}
+.dienthoai .hotline {background:url(/images/NewAbayImg/VerticalLine.png) no-repeat center right; padding:10px; float:left;margin-top:5px;}
+.dienthoai .hotline .blok1{float:left; display:block;  margin-right:20px;}
+.dienthoai .hotline .blok2{float:left; display:block;}
+
+.cskhTrangchu {float:right; margin-top:13px; overflow:hidden; height:52px; width:228px; margin-left:10px;}
+.cskhTrangchu span.leftbrackets {color:#b8b8b8; font-size:50px; width:18px; float:left; line-height:37px; font-weight:normal;}
+.cskhTrangchu span.contentTextcskhTrangchu{float:left; color:#d51317; font-size:12px; margin-right:5px;}
+.cskhTrangchu span.contentTextcskhTrangchu .mainNumber {font-size:23px; font-weight:bold; text-align:center;line-height:25px;}
+.bold_font_14_cyan {font-size:14px; line-height:18px; color:#123374; font-weight:bold;}
+.normal-font-2 {color:#737373; line-height:18px; font-size:12px;}
+.blank5 {height:5px;}
+.uppercase_Blue_small11 {color:#10306d; font-size:11px; text-transform:uppercase; line-height:18px; font-weight:bold}
+
+
+
+/* CSS menu */
+/*#nav-menu {background:#143a83; height:31px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+#nav-menu ul{list-style: none;}
+#nav-menu ul li{float:left;}
+#nav-menu ul li img {margin-top:5px;}
+#nav-menu ul li a{font-size: 12px; color:#fff; line-height:31px;text-decoration:none; background:url(/images/AbayV2/seperator.png) no-repeat left center; padding: 0 22px; }
+#nav-menu ul li a.nonedoted {background:none;}
+#nav-menu ul li a:hover {color:#ef9823;}
+#nav-menu ul li.promotion {background:url(/images/AbayV2/promotion-icon.png) no-repeat center -2px;}
+#nav-menu ul li.promotion a{color:#ef9823;}
+#nav-menu ul li a.lastItem{padding-right:0px;}
+.activehome{background:url(/images/AbayV2/active.png) no-repeat center top; height:35px;}*/
+.top-menu {background-color:#fff}
+#nav-menu {background:#143a83 url(/images/NewAbayImg/menuSearch2.jpg) repeat-x !important; height:31px !important; border-radius:5px !important; -webkit-border-radius:5px !important; margin:0px 5px !important; }
+#nav-menu ul{list-style: none;}
+#nav-menu ul li{float:left;}
+#nav-menu ul li.homeIco2{margin:0px !important; list-style:none !important; }
+#nav-menu ul li a{font-size: 12px !important; color:#fff !important; line-height:31px !important;text-decoration:none !important; background:url(/images/NewAbayImg/VerticalLineMenu.png) no-repeat left center !important; padding: 0 11px !important;font-weight: bold !important;white-space: nowrap;}
+#nav-menu ul li a.homeIco2{padding:0 5px !important;}
+#nav-menu ul li a.nonedoted {background:none !important;}
+#nav-menu ul li img{ margin-top: 0 !important;height: 31px !important;vertical-align: top;}
+#nav-menu ul li a.yellow{ color: red !important;}
+#nav-menu > ul > li:hover > a {background:url(/images/NewAbayImg/bgMenuActive.jpg) repeat-x; height:31px; line-height:31px; display:block; color:#0e74bf;}
+
+#nav-menu ul li.promotion a{color:#ef9823;}
+#nav-menu ul li a.lastItem{padding-right:10px;}
+#nav-menu ul li a.activehome{background:url(/images/NewAbayImg/bgMenuActive.jpg) repeat-x !important; height:31px !important; display:block !important; color:#0e74bf !important; line-height:31px !important;}
+#nav-menu > ul > li:hover > a {background:url(/images/NewAbayImg/bgMenuActive.jpg) repeat-x !important; height:31px !important; line-height:31px !important; display:block !important; color:#0e74bf !important;}
+
+
+.error-message {color: red;}
+.success-message {color: green;}
+
+
+/* CSS content*/
+/* CSS content-left */
+#book-ticket {margin-top:5px; background:url(/images/AbayV2/bg_body.jpg) no-repeat top center; height:370px; padding:20px 15px 15px 12px;}
+#book-ticket .main{ background:#212061 url(/images/AbayV2/bg-bticket_03.jpg) repeat-x top; height:352px; width:344px; float:left; padding:8px; -moz-border-radius:3px; -webkit-boder-radius:3px; -moz-box-shadow: 2px 2px 3px #768184;-webkit-box-shadow: 2px 2px 3px #768184;box-shadow: 2px 2px 3px #768184; position:relative;}
+#book-ticket .main h2{ background:url(/images/AbayV2/Plane.png) no-repeat top left; color:#fff; height:40px; line-height:35px;  padding-left:60px; font-weight:bold; font-size:18px;}
+#book-form{background:#fff url(/images/AbayV2/bg_bookticket.jpg) no-repeat center bottom; padding:15px; height:280px; -moz-border-radius:5px;}
+.new-icon {
+	background:url(/images/AbayV2/new-icon.png) no-repeat top left;
+	position:absolute;
+	top:0px;
+	right:-55px;
+	display:block;
+	width:110px;
+	height:72px;
+}
+.startplace {height:26px; width:145px; border: solid 1px #d2d2d2; padding:2px; line-height:30px;margin: 5px 0px; float:left; }
+.endplace {height:26px; width:145px; border: solid 1px #d2d2d2; padding:2px; line-height:30px;margin: 5px 0px; float:right; }
+.startdate {background:url(/images/AbayV2/date-icon.png) no-repeat center right; height:26px; width:145px; border: solid 1px #d2d2d2; padding:2px; line-height:30px; margin: 5px 0px; float:left;}
+.enddate {background:url(/images/AbayV2/date-icon.png) no-repeat center right; height:26px; width:145px; border: solid 1px #d2d2d2; padding:2px; line-height:30px; margin: 5px 0px; float:right;}
+.op-age {height:26px; width:80px; border: solid 1px #d2d2d2; line-height:30px; margin-top:8px;}
+.select-op {width:80px; float:left; margin:5px 0px; margin-right:35px;}
+.select-op-lastItem {width:80px; float:left; margin-top:5px;}
+.label-left {display:block; line-height:16px; width:170px; font-size:12px; color:#333 }
+.age {color:#666; line-height:12px;}
+.search {background:url(/images/AbayV2/search-button.png); border:none; height:45px;width: 140px; margin-top:5px;float: right;color: white;padding-left: 32px;line-height: 40px;font-weight: bold;}
+.view-clip {background:url(/images/AbayV2/tube.png) no-repeat center left; display: block; padding-left:40px; line-height:30px; color:#333; font-size:12px; float:left; margin:22px 5px 0px 0px;font-weight: bold;}
+.dotted {height:1px;border-bottom:dotted 1px #b8b8b8; margin:5px 0px;}
+
+.hint {
+    color: gray !important;
+}
+
+span.submit{background: url('images/submit-bg.png') repeat-x;
+height: 29px;
+font-weight: bold;
+    float: left;
+color: white;
+    line-height: 29px;
+border: none !important;
+padding: 0 18px;}
+
+.message-error {
+    background: #ffdd7b;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid red;
+    display: block;
+    padding-left: 10px;
+}
+
+.message-success {
+background: #EDF9ED;
+color: #437941;
+
+border: 1px solid #9BC97F;
+float: left;
+width: 95%;
+padding: 5px 2%;
+clear: both;
+margin: 5px auto;
+}
+
+/* CSS content-right */
+.sub {float: right; width:455px !important;  } 
+.slogan{margin:10px 0px 40px 60px;}
+
+
+.newest-man {background:#f6fbfd; padding:10px 15px 20px 20px; -moz-box-shadow: 2px 2px 3px #d7e0e2;-webkit-box-shadow: 2px 2px 3px #d7e0e2;box-shadow: 2px 2px 3px #c1ced2; height:235px; margin-left:15px;}
+.newest-man ul li {margin-top:8px;}
+.newest-man ul li p { background:url(/images/AbayV2/list-icon1.png) no-repeat center left; padding-left:10px;}
+.time-before {background:url(/images/AbayV2/refresh.gif) no-repeat center left; font-size:12px; padding-left:20px; display:block; width:90px; height:30px; line-height:30px; float: left; margin-right: 5px; }
+.logo-airplane {padding:2px; border:solid 1px #cecece; float:left; margin-right:10px;}
+.viewDetail {font-size:12px;font-weight:bold; color:#143982; line-height: 30px; width:90px; display:block; float:right;}
+.price2 {width:140px; float:left; display:block; height:30px; margin-right:10px;}
+.price2 span{line-height:30px;}
+.align-right {text-align:right; width:100%; margin-top:5px;}
+
+
+
+
+
+
+
+/* Service*/
+
+#service-method {background:#fff url(/images/AbayV2/bg3.jpg) no-repeat top left; padding: 20px 0px 20px 10px;}
+.left-service{background:url(/images/AbayV2/left-service.png) no-repeat top right;width:15px; height: 535px; float:left;}
+.service h3{margin-left:15px;}
+.service {background:url(/images/AbayV2/repeat-service_03.jpg) repeat-x;width:340px; height: 510px; float:left; padding-top:25px;}
+.service ul {background:url(/images/AbayV2/bg-service.jpg) no-repeat left bottom; height:447px;  padding:8px 0px 0px 15px;}
+.service ul li {margin:5px 0px; color:#070757; background:url(/images/AbayV2/list-icon2.png) no-repeat center left; font-size: 14px; margin-top:18px; padding-left:12px;}
+.service ul li b, .service ul li strong{font-weight:bold;}
+.viewmore {background:url(/images/AbayV2/btnMore.png) no-repeat top left; display: block; height:24px; text-decoration:none; font-size:12px; color:#fff; -moz-border-radius:3px; -webkit-boder-radius:3px; line-height:24px; margin:25px 0px; width:80px; float:right}
+.viewmore span {background:url(/images/AbayV2/btnMore2.png) no-repeat top right; height:24px;padding:0px 10px; display:block; line-height:22px; text-align:center}
+.viewmore:hover{background:url(/images/AbayV2/btnMore.png) no-repeat bottom left;}
+.viewmore span:hover {background:url(/images/AbayV2/btnMore2.png) no-repeat bottom right}
+.right-service {background:url(/images/AbayV2/right-service_03.jpg) no-repeat top left; width:18px; height:535px; float:left; margin-right:10px; }
+
+
+
+
+
+
+
+/* CSS method */
+.left-payment-method{background:url(/images/AbayV2/left-method_03.jpg) no-repeat top right;width:15px; height: 535px; float:left;}
+.payment-method {background:url(/images/AbayV2/repeat-service_03.jpg) repeat-x;width:483px; height: 510px; float:left; padding:15px 10px 10px 15px;;}
+.right-service2 {background:url(/images/AbayV2/right-service_03.jpg) no-repeat top left; width:18px; height:535px; float:left;}
+.payment-method ul{margin:10px 0px; }
+.payment-method ul li{ padding:3px 0px 5px 0px; }
+.number{float:left;}
+.number2 {float:left;padding-bottom:40px;}
+.number3 {float:left;padding-bottom:30px;}
+.number4{float:left;padding-bottom:30px;}
+.number5{float:left;padding-bottom:120px;}
+.insideLi { font-size:14px; font-weight:bold; color:#0b1e6f; line-height:24px; display:block; margin-top:3px;}
+
+.chat-icon {float: left; margin-right:8px;}
+.custommer-phone {background:url(/images/AbayV2/phone-icon-small.png) no-repeat center left; border: solid 1px #adadad; height:24px; line-height:24px; margin-top:5px; margin-right:5px; padding-left:30px; float:left}
+.marrgin8 {margin-top:5px}
+.payment-method ul li span{margin-right:10px}
+.sent {background:url(/images/AbayV2/btnMore.png) top left; float:left; margin-top:6px; margin-right:5px; color:#fff; border:none; height:24px}
+.payment-method ul li img {margin-top:0; margin-right:8px;}
+.img-office {}
+.viewoffice {font-size:12px; margin-left:30px; background:url(/images/AbayV2/hand.png) no-repeat center left; display: block; padding-left:20px; line-height:20px; color:#666666}
+
+
+
+
+
+
+
+/* CSS customersay */
+#custommersay {background:#f2f2f3 url(/images/bgKH.jpg) repeat-x top; padding:20px 20px 10px 25px;}
+#custommersay .titleNoivechungtoi{color:#04438d; font-size:24px; text-shadow:#fff 1px 1px; display:block; width:450px;}
+.saying {width:475px; margin:10px 15px; float:left; display:block}
+.saying ul li { margin-top:10px;}
+.saying li img{float:left; margin-right:10px; margin-top:5px;}
+.saying p {float:left; font-size:13px; line-height:20px; color:#706f6f; display:block;width:400px; font-style:italic;} 
+.nameKH {line-height:25px; color: #9c9c9c; font-size:11px;}
+.quickComent {float:left; margin-left:45px; width:290px;}
+.quickComent h5 {font-size:13px; font-weight:bold; text-transform:uppercase; letter-spacing:-1px; color:#04438d;}
+.quickComent h5 {margin:10px 0px;}
+.quickComent label {font-size:11px; color:#155095; line-height:14px; font-weight:bold; margin-bottom:5px; display:block}
+.inputName {border: solid 1px #e4e4e4; height:24px; background:#fff; width:290px; margin-bottom:10px;}
+.messageKH {width:290px; height:65px;border: solid 1px #e4e4e4; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.btn {overflow:hidden; display:block; margin-top:10px;}
+
+.submitMessage {width:66px; height:34px;cursor: pointer; color:#fff; background:url(/images/SendButton.png) no-repeat center right; border:none; float:right;font-weight:bold; font-family:Arial, Helvetica, sans-serif}
+.xemtiep {font-size:12px; float:right; width:90px; color:#f39b28; display:block;}
+
+/* CSS top-footer */
+#nav-menu2 {background:#d1d1d1 url(/images/AbayV2/bg4.jpg) no-repeat top center; padding: 30px 10px;float: left;width: 922px;}
+.promotion-email {width:204px; float:left; margin-right:10px}
+.promotion-email .email{width:110px; height:20px !important; float:left; font-size:10px; font-style:italic; margin-right:2px; border:solid 1px #ededed; margin-top:9px;padding-left:5px;}
+.promotion-email .confirm{height:22px; border:none; color:#FFFFFF; line-height:20px; background:url(/images/AbayV2/bg-btn3.jpg);  width:60px; margin-top:10px;}
+.book-manager {float:left; width:155px; text-shadow: #f2f2f2 1px 1px;}
+.book-manager ul{ margin-left:5px; margin-top:5px;}
+.book-manager ul li {list-style: none}
+.book-manager ul li a{background:url(/images/AbayV2/list-item3.png) no-repeat center left; font-size:13px; color:#333; line-height:18px; text-decoration:none; padding-left:10px;}
+.book-manager ul li a:hover {text-decoration:underline}
+
+.fb {background:#fff; width:218px; float: left; }
+/*
+.fb input{background:url(/images/AbayV2/like.png) no-repeat top left; border:none; width:55px; height:25px; float:left}
+.fb img{float:left; width:40px; height:40px; margin-right:3px;}
+.fb .fbPlugin{background:url(/images/AbayV2/fb-icon.jpg) no-repeat center left; padding-left:20px; font-size:11px; }
+*/
+.fb img {
+    width: 100%;    
+}
+
+#footer {height:109px;background:#f4f5f4;clear: both;}
+.logo2{float:left; margin-right:15px; border-right:solid 1px #797979; height:60px;padding-top:3px; margin-top:25px; margin-left:15px;padding-right:10px; } 
+.linkfooter{color:#123272}
+.textCS {float:left; display:block;width:340px;}
+#footer  p {margin-top:15px; float:left;font-size:11px; line-height:16px; float:left; width:380px;}
+#footer p.right {float:right; margin-right:20px;display:block; width:380px; margin-top:15px;}
+
+#addVP {position:relative; width:450px; height:200px; margin-left:30px; margin-top:0px !important; }
+#addVP .AddHN{ display:block; width:233px; height:200px; z-index:10; position:absolute; top:0px; left:0px; text-decoration:none;}
+#addVP .AddHN span {text-decoration:none; display:block}
+#addVP .AddSG {
+	display:block;
+	width:233px;
+	height:190px;
+	z-index:12;
+	position:absolute;
+	right:15px;
+	top:0px;
+	text-decoration:none;
+}
+#addVP .AddSG span{ text-decoration:none; text-align:right; display:block; margin-right:0px !important; }
+
+/* update 07/06*/
+.floatL {float: left;}
+.floatR {float: right;}
+.uppercase-white {font-size:11px; text-transform:uppercase; color:#fff;}
+.bold-font-white {font-size:12px; font-weight:bold; line-height:18px; color:#fff;}
+#newFooter {background:#22376f url(/images/abayv2/newBgFooter.jpg) no-repeat top center; padding:20px;}
+.Question {width:160px; margin-right:15px;}
+.aboutUs {width:132px; margin-right:15px;}
+.Dathang  {width:125px; margin-right:15px;}
+.headU {background:url(/images/abayv2/abayIcon.png) no-repeat top left; padding:9px 0px 0px 25px;}
+.listFAQ{margin: 5px 0px 5px 25px;list-style: none;}
+.listFAQ li {white-space: nowrap;}
+.listFAQ li a{ background:url(/images/abayv2/listItem-3.png) no-repeat center left; font-size:11px; color:#fff;text-decoration:none; padding-left:10px; line-height:18px;}
+.listFAQ li a:hover {text-decoration:underline;}
+
+.contactUs {width:250px; padding-bottom:10px; margin-top:5px; margin-right:15px; background:#fff; border-radius:5px;}
+.contactUs .headContact{line-height:40px; height:40px; padding:0px 15px; background:#ebebeb; font-size:18px; font-weight:bold; color:#123272; border-radius:5px;}
+.contentContactUs {background:#fff;}
+.line4 {background:url(/images/abayv2/line4.png) no-repeat; height:1px; margin:1px 0px;}
+.contactUs img {margin:5px 0 10px 0px; float:left;}
+.contactUs p{margin-top:5px;}
+.red-font {font-size:14px; font-weight:bold; line-height:25px; color:#900;}
+
+.textEKM {width:110px; height:20px; border:none; margin:5px 0px; float:left; font-size:10px; color:#666666; line-height:20px; padding:0px 5px;}
+.submitEmail {background:url(/images/abayv2/bgMenu-hover.jpg) repeat-x !important; height:20px  !important; margin:5px 0px; border:none; margin-left:5px; cursor:pointer; color:#fff; line-height:20px; font-size:11px;padding: 0 5px !important;}
+.likeUsonFB {width:66px; height:24px; background:url(/images/abayv2/likeusonFB.png) no-repeat; border:none; float:left; cursor:pointer; margin-top:6px; margin-right:5px;}
+.connectFB {background:url(/images/abayv2/fbButton.png) no-repeat; width:120px; height:41px; float:left; border:none;}
+
+.mainFooter{margin-top:25px; margin-left:30px;}
+.mainFooter img{float:left;margin-right:6px; padding:1px; border:solid 1px #b7b7b7;width: 90px;}
+.mainFooter .hanoiFooter p{float:left;font-size:11px; color:#fff; margin-right:15px; line-height:15px; }
+.link {color:#c7eafb;}
+.hanoiFooter {width:423px; margin-right:10px;}
+.copyright {margin-top:25px; text-align:right; font-size:11px; color:#fff;}
+.link {color:#c7eafb; text-decoration:none}
+/* update 14/06*/
+
+.subMenu {background:url(/images/bgTopHeader.jpg) repeat-x; height:29px; }
+.subMenu ul {list-style:none; float:right; width:340px; padding:5px 0px; text-align:right;}
+.subMenu ul li {float: left; margin-right:15px;}
+.subMenu ul li img { margin-right:5px;}
+.subMenu ul li.lastItem {margin-right:0px; padding-right:0px;}
+
+.slTopHeader {font-size:11px; color:#8f8f8f; line-height:25px; float:left; margin-left:10px;white-space: nowrap;}
+.NavFooter {background-color: white !important; padding-top:20px; clear: both;}
+.NavFooter .innerNavFooter { padding:10px 20px 20px 20px;}
+.innerNavFooter .col {width:22.9%; margin-left:20px; float:left}
+.innerNavFooter .col h1 { margin-bottom:5px;}
+.innerNavFooter .col ul {list-style:none; margin-left:5px;}
+.innerNavFooter .col ul li {}
+.innerNavFooter .col ul li a{background:url(/images/listItem4.png) no-repeat center left; padding-left:15px; font-size:11px; line-height:16px; color:#767676; text-decoration:none;}
+.innerNavFooter .col ul li a:hover {color:#1c4179;}
+
+/* Edit 24/07/2012 */
+/* Cái này sửa ở trên, cóp đè */
+#news {background:#f2f3f3 url(/images/bgTintuc.jpg) top repeat-x; padding:25px 40px 15px 40px; border-top:solid 1px #e8e8e8; border-bottom: solid 1px #fff;}
+#news .left_News{float:left; width:55%; border-right: dotted 1px #bababa; padding-right:10px;}
+#news .left_News h4 {background:url(/images/newspaper_info.png) no-repeat; padding-left:45px; padding-top:13px; font-size:16px; color:#04438d; font-weight:bold;}
+#news .left_News ul {margin:10px 30px;}
+#news .left_News ul li a {background:url(/images/listItem5.png) left no-repeat; padding-left:15px; line-height:25px; font-size:12px; color:#707070; text-decoration:none;display:inline-block;}
+
+#news .right_News {float:left; padding-left:30px;padding-bottom:10px; width:39%}
+#news .right_News h4{background:url(/images/tag.png) no-repeat; text-indent:-9999; height:40px;}
+#news .right_News .tag {font-size:12px;}
+#news .right_News .tag a{color:#666; text-decoration:none; line-height:20px;}
+#news .left_News ul li a:hover {color:#1d407a;}
+
+.complain { float:right; text-align:right; font-size:12px; color:#666; margin-right:10px;}
+.complain p {line-height:25px;}
+.complain .compTxt {background:url(/images/complantIcon.png) no-repeat center left; padding-left:25px; color:#e4312b; font-size:14px; font-weight:bold}
+
+/*------------------------CSS LIKE FB ----------------------*/
+.contentOtherNews {margin:10px 0px 15px 15px;}
+.likeContent {float:left}
+.dmca {text-align:right; float:right}
+.dotted-line {border-bottom: dotted 1px #b8b8b8;margin: 8px 0px;}
+
+.TinlienquanLP {margin:20px 0px 0; border-top: solid 1px #d7d7d7; padding-top:10px;}
+.TinlienquanLP h5 {background:url(/Images/tintuc.png) no-repeat center left; padding-left:35px; font-size:20px; text-transform:uppercase; color:#143a83; font-weight:normal; line-height:30px;}
+
+.TinlienquanLP ul {margin:8px 0px;}
+.TinlienquanLP ul li {}
+.TinlienquanLP ul li a {background:url(/Images/ListItem_orange.png) no-repeat center left; padding-left:12px; color:#143a83; font-size:12px; line-height:20px; text-decoration:none;}
+.xemthemtintucLQ {padding:3px 10px; background:#f2693d; color:#fff; text-decoration:none; font-size:12px; float:right; margin:10px;}
+
+.changbayphobienLP_sua {margin:0; background:#f1f2f2; border-radius:0; padding:0px 15px 10px 15px;}
+.changbayphobienLP_sua h4 {font-size:14px; color:#185195; font-weight:bold; line-height:40px; background:url(/Images/planeIcon.png) no-repeat center left; padding-left:20px; }
+.changbaypb {margin-top:10px;}
+.changbayphobienLP_sua ul { float:left; width:25%; margin-top:10px;}
+.changbayphobienLP_sua ul li a {background:url(/Images/ListItem_yeallow.png) no-repeat center left; padding-left:11px; color:#585858; font-size:11px; line-height:20px; text-decoration:none; margin-left:20px;} 
+.changbayphobienLP_sua ul li a:hover {color:#143a83;}
+.changbayphobienLP_sua:after {display:block;height:1;clear:both;content:''}
+
+.Datvemaybay_LP {margin:10px 0px 5px 15px;}
+.Datvemaybay_LP h4{font-size:13px; font-weight:bold; color:#143a83; line-height:24px; margin-left:20px;}
+.Datvemaybay_LP ul {float:left; margin:0px 0px 0px 20px; width:200px;list-style: none outside none;}
+.Datvemaybay_LP ul li a {font-size:11px; color:#737373; text-decoration:none; line-height:17px;}
+.lastItemLP {margin-bottom:25px;}
+.NavFooter {background-color: white !important; padding-top:0px !important; clear: both;}
+.NavFooter .innerNavFooter { padding:10px 0px 20px !important; }
+/*----------------- Gray banner Quoc Tang ----------*/
+.bold-font-Gray{font-size:14px; color:#000; font-weight:bold;}
+.logoGray {background:url(/images/GrayBanner/abay_GrayBanner_logo_03.jpg) no-repeat center center; display:block; width:165px; height:72px; float:left; margin-left:15px;}
+
+.cskhTrangchu span.contentTextcskhTrangchuGray{float:left; color:#000; font-size:12px; margin-right:5px;}
+.cskhTrangchu span.contentTextcskhTrangchuGray .mainNumber {font-size:23px; font-weight:bold; text-align:center;line-height:25px;}
+
+#nav-menuGray {background:#143a83 url(/images/GrayBanner/abay_GrayBanner_03.jpg) repeat-x; height:31px; border-radius:5px; -webkit-border-radius:5px; margin:0px 15px; }
+#nav-menuGray  ul{list-style: none;}
+#nav-menuGray  ul li{float:left;}
+#nav-menuGray  ul li.homeIco2{margin:0px; list-style:none; }
+#nav-menuGray  li a{font-size: 12px; color:#fff; line-height:32px;text-decoration:none; background:url(/images/GrayBanner/verticalLine_06.jpg) no-repeat left center; padding: 0 14px; font-weight:bold }
+#nav-menuGray  ul li a.homeIco2{padding:0 5px;}
+#nav-menuGray  ul li a.nonedoted {background:none;}
+
+#nav-menuGray  ul li a:hover {background:#e8e8e8 url(/images/GrayBanner/abay_GrayBanner_active_07.jpg) repeat-x; height:32px; line-height:32px; display:block; color:#000;}
+
+#nav-menuGray  ul li.promotion a{color:#ef9823;}
+#nav-menuGray  ul li a.lastItem{padding-right:10px;}
+#nav-menuGray  ul li a.activehome{background:#e8e8e8 url(/images/GrayBanner/abay_GrayBanner_active_07.jpg) repeat-x; height:32px; display:block; color:#000; line-height:32px;}

@@ -204,18 +204,18 @@ table.flight-input-info {  padding-bottom:10px;}
 .listCity td { vertical-align:top;}
 .listCity ul { list-style:none; float:left; clear:both;}
 .listCity ul li { float:left; clear:both; padding:0 5px 0 0; width:115px;}
-.listCity ul li.title { font-weight:bold; font-size:15px; padding:5px 0;  text-transform:uppercase;}
+.listCity ul li.title {font-weight: bold;font-size: 13px;padding: 5px 0 7px 0;color: #ff7b0f;text-transform: uppercase;}
 .listCity ul li a { float:left; width:106px; padding:1px 3px;  }
 .listCity ul li a:hover { background:#ff7b0f; }
 .listCity ul li a:hover * { color:#fff;}
 .listCity ul li a:hover b { font-weight:bold;}
 .listCity ul li a b { float:left; font-weight:normal;}
-.listCity ul li a span { float:right; font-weight:bold; font-size:10px; color:#999;}
+.listCity ul li a span { float:right; font-weight:bold; font-size:10px; color:#999;display: none;}
 .domestic-col { float:left;padding-right:15px; font-size:12px;}
-.internation-city { float:left; width:360px;}
-.internation-city h3 { font-size:15px; padding:5px 0; text-transform:uppercase;}
+.internation-city { float:left; width: 260px;}
+.internation-city h3 { font-size: 13px;padding: 5px 0;margin: 0;color: #ff7b0f;text-transform: uppercase;}
 .internation-city p { font-size:11px; color:#888;}
-.internation-city input { height:24px; width:320px; border:1px solid #ccc; padding:2px 5px; margin:7px 0; }
+.internation-city input {height: 24px;width: 250px;border: 1px solid #ccc;padding: 2px 5px;margin: 7px 0;}
 
 /* Payment */
 .bank-name { color:#666; font-weight:bold; }

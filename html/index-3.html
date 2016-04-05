@@ -16,12 +16,15 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
     <!-- /GOOGLE FONTS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/reset-css.css">
+    <link rel="stylesheet" href="css/jquery-ui-1.8.7.all.css">
+    <link rel="stylesheet" href="css/dialog.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="css/layout.css">
     <script src="js/modernizr.js"></script>
-
 
 </head>
 
@@ -492,7 +495,79 @@
                                                             <div class="col-md-6">
                                                                 <div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
                                                                     <label>Điểm dến</label>
-                                                                    <input class="typeahead form-control" placeholder="City, Airport, U.S. Zip" type="text" />
+                                                                    <input class="typeahead form-control" placeholder="City, Airport, U.S. Zip" type="text" onclick="onShowDialog()" />
+
+                                                                    <script type="text/javascript">
+                                                                        function onShowDialog(){
+                                                                            var dlgSearch = document.getElementById("dlgSearch");
+                                                                            dlgSearch.style.display = "block";
+                                                                        }   
+
+                                                                        function closeDialog(){
+                                                                            var dlgSearch = document.getElementById("dlgSearch");
+                                                                            dlgSearch.style.display = "none";
+                                                                        }
+                                                                    </script>
+
+                                                                    <div id="dlgSearch" aria-labelledby="ui-dialog-title-list-arrival" role="dialog" tabindex="-1" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable ui-resizable" style="display: none; z-index: 1007; outline: 0px none; position: absolute; height: auto; width: 580px; top: 0; left: 0;">
+                                                                        <div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+                                                                            <span id="ui-dialog-title-list-arrival" class="ui-dialog-title">Lựa chọn thành phố hoặc sân bay đến</span>
+                                                                            <a role="button" class="ui-dialog-titlebar-close ui-corner-all" href="#" onclick="closeDialog()">
+                                                                                <span class="ui-icon ui-icon-closethick">close</span></a></div><div scrollleft="0" scrolltop="0" style="display: block; width: auto; min-height: 93.0333px; height: auto;" id="list-arrival" class="dialog listCity ui-dialog-content ui-widget-content">
+
+
+                                                                    <div class="domestic-col">
+                                                                        <ul>
+                                                                            <li class="title">Miền Bắc </li>
+                                                                            <li><a airportcode="HAN" href="#"><b>Hà Nội </b><span>(HAN)</span> </a></li>
+                                                                            <li><a airportcode="HPH" href="#"><b>Hải Phòng</b> <span>(HPH)</span> </a></li>
+                                                                            <li><a airportcode="DIN" href="#"><b>Điện Biên</b> <span>(DIN)</span> </a></li>
+                                                                        </ul>
+                                                                        <ul>
+                                                                            <li class="title">Miền Trung </li>
+                                                                            <li><a airportcode="THD" href="#"><b>Thanh Hóa</b> <span>(THD)</span> </a></li>
+                                                                            <li><a airportcode="VII" href="#"><b>Vinh</b> <span>(VII)</span> </a></li>
+                                                                            <li><a airportcode="HUI" href="#"><b>Huế</b> <span>(HUI)</span> </a></li>
+                                                                            <li><a airportcode="VDH" href="#"><b>Đồng Hới</b> <span>(VDH)</span> </a></li>
+                                                                            <li><a airportcode="DAD" href="#"><b>Đà Nẵng</b> <span>(DAD)</span> </a></li>
+                                                                            <li><a airportcode="TMK" href="#"><b>Tam Kỳ</b> <span>(VCL)</span> </a></li>
+                                                                            <li><a airportcode="PXU" href="#"><b>Pleiku</b> <span>(PXU)</span> </a></li>
+                                                                            <li><a airportcode="TBB" href="#"><b>Tuy Hòa</b> <span>(TBB)</span> </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="domestic-col">
+                                                                        <ul>
+                                                                            <li class="title">Miền Nam </li>
+                                                                            <li><a airportcode="SGN" href="#"><b>Hồ Chí Minh </b><span>(SGN)</span> </a></li>
+                                                                            <li><a airportcode="CXR" href="#"><b>Nha Trang</b> <span>(CXR)</span> </a></li>
+                                                                            <li><a airportcode="DLI" href="#"><b>Đà Lạt</b> <span>(DLI)</span> </a></li>
+                                                                            <li><a airportcode="PQC" href="#"><b>Phú Quốc</b> <span>(PQC)</span> </a></li>                
+                                                                            <li><a airportcode="UIH" href="#"><b>Qui Nhơn</b> <span>(UIH)</span> </a></li>
+                                                                            <li><a airportcode="VCA" href="#"><b>Cần Thơ</b> <span>(VCA)</span> </a></li>
+                                                                            <li><a airportcode="VCS" href="#"><b>Côn Đảo</b> <span>(VCS)</span> </a></li>
+                                                                            <li><a airportcode="BMV" href="#"><b>Ban Mê Thuột</b> <span>(BMV)</span> </a></li>
+                                                                            <li><a airportcode="VKG" href="#"><b>Rạch Giá</b> <span>(VKG)</span> </a></li>
+                                                                            <li><a airportcode="CAH" href="#"><b>Cà Mau</b> <span>(CAH)</span> </a></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="internation-city">
+                                                                        <h3 style="font-weight: bold; font-size: 13px;">
+                                                                            Quốc tế
+                                                                        </h3>
+                                                                        <p>
+                                                                            <b style="color: black; font-weight: bold">
+                                                                                Hãy nhập vào tên thành phố hoặc mã sân bay</b>
+                                                                        </p>
+                                                                        <p class="error-arrival" style="color: red;">
+                                                                            &nbsp;</p>
+                                                                        <input autocomplete="off" id="inter-city-arrival" class="inter-city txtFlightCity ac_input" datatype="arrival" style="font-size: 13px" name="" type="text">
+                                                                        <p>
+                                                                            <span id="submit-arrival" class="submit">
+                                                                                Chọn
+                                                                            </span>
+                                                                        </p>
+                                                                    </div>
+                                                                </div><div class="ui-resizable-handle ui-resizable-n"></div><div class="ui-resizable-handle ui-resizable-e"></div><div class="ui-resizable-handle ui-resizable-s"></div><div class="ui-resizable-handle ui-resizable-w"></div><div style="z-index: 1001;" class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se"></div><div style="z-index: 1002;" class="ui-resizable-handle ui-resizable-sw"></div><div style="z-index: 1003;" class="ui-resizable-handle ui-resizable-ne"></div><div style="z-index: 1004;" class="ui-resizable-handle ui-resizable-nw"></div></div>
                                                                 </div>
                                                             </div>
                                                         </div>
